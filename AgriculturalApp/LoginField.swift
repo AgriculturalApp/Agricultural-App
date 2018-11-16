@@ -13,7 +13,7 @@ class LoginField: UITextField {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        underlineView.backgroundColor = UIColor.lightGray
+        //underlineView.backgroundColor = UIColor.lightGray
         
         
     }

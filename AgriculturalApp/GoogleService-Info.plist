@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>983794479199-gr3u07o9a2dckkmfva4hsob3ig5nh8o4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.983794479199-gr3u07o9a2dckkmfva4hsob3ig5nh8o4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDpo0G_0wkpxdToh2oD2lfsy1DP3f0uQ6k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>983794479199</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nyu.AgriculturalApp</string>
+	<key>PROJECT_ID</key>
+	<string>agriculturalapp-31861</string>
+	<key>STORAGE_BUCKET</key>
+	<string>agriculturalapp-31861.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:983794479199:ios:062ea2373a2ad1e8</string>
+	<key>DATABASE_URL</key>
+	<string>https://agriculturalapp-31861.firebaseio.com</string>
+</dict>
+</plist>
