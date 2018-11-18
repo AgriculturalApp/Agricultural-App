@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0786C920219E80F700B995E1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786C91F219E80F700B995E1 /* SignUpVC.swift */; };
 		07D8D0322187C4790069C477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8D0312187C4790069C477 /* AppDelegate.swift */; };
-		07D8D0342187C4790069C477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8D0332187C4790069C477 /* ViewController.swift */; };
+		07D8D0342187C4790069C477 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8D0332187C4790069C477 /* LoginVC.swift */; };
 		07D8D0372187C4790069C477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D8D0352187C4790069C477 /* Main.storyboard */; };
 		07D8D0392187C47B0069C477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D8D0382187C47B0069C477 /* Assets.xcassets */; };
 		07D8D03C2187C47B0069C477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D8D03A2187C47B0069C477 /* LaunchScreen.storyboard */; };
@@ -39,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0786C91F219E80F700B995E1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		07D8D02E2187C4780069C477 /* AgriculturalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgriculturalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D8D0312187C4790069C477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07D8D0332187C4790069C477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07D8D0332187C4790069C477 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		07D8D0362187C4790069C477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07D8D0382187C47B0069C477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07D8D03B2187C47B0069C477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -119,7 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				07D8D0312187C4790069C477 /* AppDelegate.swift */,
-				07D8D0332187C4790069C477 /* ViewController.swift */,
+				07D8D0332187C4790069C477 /* LoginVC.swift */,
+				0786C91F219E80F700B995E1 /* SignUpVC.swift */,
 				07D8D0352187C4790069C477 /* Main.storyboard */,
 				07F5C2A221978CE6000939BC /* LoginField.swift */,
 				07D8D0382187C47B0069C477 /* Assets.xcassets */,
@@ -378,16 +381,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AgriculturalApp/Pods-AgriculturalApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +409,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D8D0342187C4790069C477 /* ViewController.swift in Sources */,
+				0786C920219E80F700B995E1 /* SignUpVC.swift in Sources */,
+				07D8D0342187C4790069C477 /* LoginVC.swift in Sources */,
 				07D8D0322187C4790069C477 /* AppDelegate.swift in Sources */,
 				07F5C2A321978CE6000939BC /* LoginField.swift in Sources */,
 			);
